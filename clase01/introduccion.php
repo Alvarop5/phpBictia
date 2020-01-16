@@ -124,7 +124,7 @@ $peliculas = [
     
 ];
 
-$asociacion = 0;
+
 foreach ($peliculas as $pelicula => $datosPelicula) {
     echo '<h1>' . $datosPelicula['nombrePelicula'] . '</h1>' . '<br>';
     echo '<b>' . $datosPelicula['Director'] . '</b>' . '<br>';
